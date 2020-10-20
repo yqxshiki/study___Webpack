@@ -81,11 +81,11 @@ module.exports = {
         },
       },
       {
-        test: /.html$/,
+        test: /\.html$/,
         loader: "html-loader",
       },
       {
-        exclude: /.(js|css|html|jpg|png|gif)/,
+        exclude: /\.(js|css|html|jpg|png|gif)/,
         loader: "file-loader",
         options: {
           outputPath: "media",

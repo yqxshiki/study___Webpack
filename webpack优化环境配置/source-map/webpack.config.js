@@ -83,7 +83,7 @@ module.exports = {
  * 不能追踪源代码错，只能提示到构建后代码的错误位置
  *
  * eval-source-map
- * 内联 每个文件都生成一个对应的source-map  堵在eval
+ * 内联 每个文件都生成一个对应的source-map  都在eval
  * 错误代码准确信息 和源代码的错误位置
  *
  * nosources-source-map
